@@ -4,8 +4,9 @@ setlocal enabledelayedexpansion
 set GAME_FOLDER=REPO
 set GAME_EXECUTABLE=REPO.exe
 
-REM uncomment the line if the 'psutil' is not installed
 REM python -m pip install --quiet --upgrade psutil
+REM python -m pip install --quiet psutil==7.0.0
+python -c "import psutil" 2>NUL || python -m pip install --quiet psutil==7.0.0
 
 set PYTHON_SCRIPT=C:\edel_scripts\copy_saves.py
 
