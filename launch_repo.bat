@@ -8,7 +8,7 @@ REM python -m pip install --quiet --upgrade psutil
 REM python -m pip install --quiet psutil==7.0.0
 python -c "import psutil" 2>NUL || python -m pip install --quiet psutil==7.0.0
 
-set PYTHON_SCRIPT=C:\edel_scripts\copy_saves.py
+set PYTHON_SCRIPT=%REPO_PYSCRIPT%
 
 set STEAM1=%ProgramFiles(x86)%\Steam\steamapps\common\%GAME_FOLDER%
 set STEAM2=D:\SteamLibrary\steamapps\common\%GAME_FOLDER%
