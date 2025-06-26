@@ -9,6 +9,7 @@
 - Go to Steam → Manage → Properties → General and add the next line to **_launch options_**:
 ```"{path_to_local_repository}\launch_repo.bat" %command%```. For example: ```"C:\repo-saves-synchronizer\launch_repo.bat" %command%```
 
+- Launch the game via the Steam client
 
 ## Notes
 
