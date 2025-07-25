@@ -10,6 +10,7 @@ python -c "import psutil" 2>NUL || python -m pip install --quiet psutil==7.0.0
 
 set PYTHON_SCRIPT=%REPO_PYSCRIPT%
 
+REM set your path to the Steam Library
 set STEAM1=%ProgramFiles(x86)%\Steam\steamapps\common\%GAME_FOLDER%
 set STEAM2=D:\SteamLibrary\steamapps\common\%GAME_FOLDER%
 set STEAM3=E:\Games\SteamLibrary\steamapps\common\%GAME_FOLDER%
